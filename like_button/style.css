@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    /* height: 400px; */
+    position: relative;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card .img{
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    background-size: cover;
+}
+
+h2{
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.like{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0) ;
+    font-size: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSimwXT_COGZOohs6pzjuxlrPDPIX-GhqZ19r6I1hSe8P_dgh4u2z6307Q&s=10);
+    background-size: cover;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all cubic-bezier(.67,.65,.81,1.32) 0.4s  ;
+
+}
