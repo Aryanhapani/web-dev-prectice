@@ -17,7 +17,7 @@ img.addEventListener("dblclick",function(){
    },500)
    
    setTimeout(() => {
-   like.style.opacity="0";
+       like.style.opacity="0";
     
    }, 800);
     

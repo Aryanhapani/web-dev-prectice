@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    overflow: hidden;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+.elem{
+    height: 110px;
+    width: 100%;
+    /* background-color: royalblue; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 2px solid #fff;
+}
+
+.elem h1{
+    font-size: 6vw;
+}
+
+.elem img{
+    mix-blend-mode: difference;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    transition: all linear 0.1s;
+    opacity: 0;
+}
