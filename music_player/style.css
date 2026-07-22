@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 85%;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    padding: 3vw 7vw;
+}
+
+#left{
+    height: 100%;
+    width: 45%;
+    background-color: #333;
+    /* background-image: url(https://i.pinimg.com/1200x/30/d8/b4/30d8b4cbbcc702adb6262f2f8a34e342.jpg); */
+    background-size: cover;
+    background-position: center;
+}
+
+#right{
+    height: 100%;
+    width: 55%;
+    /* background-color: blue; */
+    padding: 0 3vw;
+}
+
+#right h3{
+    font-size: 40px;
+}
+
+#all-songs{
+    /* background-color: red; */
+    height: 80%;
+    margin-top: 25px;
+}
+
+.song-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+    padding: 10px 10px;
+}
+
+.song-card:hover{
+    background-color: #322d2d;
+}
+
+.song-card:nth-last-child(1){
+    border-bottom: 1px solid #fff;
+}
+
+#part1{
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+
+.song-card img{
+    height: 55px;
+    width: 55px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 20px;
+
+}
+
+#part1 h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#part1 h6{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#player{
+    height: 15%;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#player h3{
+    background-color: #666;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#player h3 i{
+    font-style: 20px;
+}
+
+#player h3:active{
+    scale: 0.9;
+}
